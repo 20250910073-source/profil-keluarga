@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kakak</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fa;
+            color: #333;
+        }
+
+        nav {
+            background: #243650;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 4px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #526d91;
+        }
+
+        .foto-utama {
+            width: 350px;
+            max-width: 90%;
+            height: auto;
+            margin: 35px auto;
+            border-radius: 20px;
+            box-shadow: 0 5px 18px #00000025;
+        }
+
+        .biodata,
+        .kepribadian {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000015;
+        }
+
+        .biodata {
+            width: 30%;
+        }
+
+        .kepribadian {
+            flex: 1;
+        }
+
+        h2 {
+            color: #24527a;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #24527a;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .konten {
+                flex-direction: column;
+            }
+
+            .biodata,
+            .kepribadian {
+                width: auto;
+            }
+        }
+
+        footer {
+            background: #243650;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="conten.html">Home</a>
+        <a href="ayah.html">Ayah</a>
+        <a href="ibu.html">Ibu</a>
+        <a href="#">Kakak</a>
+        <a href="adik.html">Adik</a>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CONTEN -->
+    <center>
+        <h1>Profil Keluarga</h1>
+
+        <p>
+            Keluarga adalah tempat pulang dan berbagi kebahagiaan.
+        </p>
+
+        <img src="foto/foto 1.jpg" alt="Foto keluarga" class="foto-utama">
+    </center>
+    <div style="display: flex; align-items: center; gap: 20px;" class="konten">
+        <img src="foto/kakak.png" alt="" width="150">
+        <DIv class="biodata">
+            <p>nama : Raihan Raka alfarizi</p>
+            <p>tempat, tanggal lahir : kuningan, 28 mei 2007</p>
+            <p>pekerjaan : mahasiswa</p>
+            <p>alamat : kuningan</p>
+        </DIv>
+        <DIv class="kepribadian">
+            <h3>kepribadian kakak</h3>
+            <p>Kakak metal memiliki kepribadian yang tegas, mandiri, dan percaya diri. Ia menyukai musik metal, berani
+                tampil berbeda, serta memiliki gaya yang khas.</p>
+            <p> Meskipun terlihat garang dan cuek dari luar, kakak metal bisa memiliki hati yang baik, setia kepada
+                teman, dan peduli kepada orang-orang terdekatnya.</p>
+            <p>Ia juga biasanya memiliki pendirian yang kuat, tidak mudah terpengaruh oleh orang lain, dan berani
+                mengekspresikan dirinya sendiri.</p>
+        </DIv>
+    </div>
+    <!-- CONTEN END -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Profil Keluarga | Keluarga Bahagia</p>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+
+</html>

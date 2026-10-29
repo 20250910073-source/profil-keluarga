@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayah</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fa;
+            color: #333;
+        }
+
+        nav {
+            background: #243650;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 4px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #526d91;
+        }
+
+        .foto-utama {
+            width: 350px;
+            max-width: 90%;
+            height: auto;
+            margin: 35px auto;
+            border-radius: 20px;
+            box-shadow: 0 5px 18px #00000025;
+        }
+
+        .biodata,
+        .kepribadian {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000015;
+        }
+
+        .biodata {
+            width: 30%;
+        }
+
+        .kepribadian {
+            flex: 1;
+        }
+
+        h2 {
+            color: #24527a;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #24527a;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .konten {
+                flex-direction: column;
+            }
+
+            .biodata,
+            .kepribadian {
+                width: auto;
+            }
+        }
+
+        footer {
+            background: #243650;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="conten.html">Home</a>
+        <a href="#">Ayah</a>
+        <a href="ibu.html">Ibu</a>
+        <a href="kakak.html">Kakak</a>
+        <a href="adik.html">Adik</a>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CONTEN -->
+    <center>
+        <h1>Profil Keluarga</h1>
+
+        <p>
+            Keluarga adalah tempat pulang dan berbagi kebahagiaan.
+        </p>
+
+        <img src="foto/foto 1.jpg" alt="Foto keluarga" class="foto-utama">
+    </center>
+    <div style="display: flex; align-items: center; gap: 20px;" class="konten">
+        <img src="foto/ayah.jpg" alt="" width="150">
+        <div class="biodata">
+                        <p>nama : bapak</p>
+            <p>tempat, tanggal lahir : kuningan, 38 oktober 2026</p>
+            <p>pekerjaan : buruh</p>
+            <p>alamat : kuningan</p>
+        </div>
+        <div class="kepribadian">
+                        <h3>kepribadian ayah</h3>
+            <p>Ayah saya adalah sosok yang pekerja keras, sabar, dan bertanggung jawab terhadap keluarga.</p>
+            <p>Beliau bekerja sebagai buruh untuk memenuhi kebutuhan keluarga dan selalu berusaha memberikan yang
+                terbaik bagi kami.</p>
+            <p>Bagi saya, ayah adalah sosok yang kuat, penyayang, dan pantang menyerah dalam menghadapi berbagai
+                kesulitan.</p>
+            <p>Saya sangat menghormati dan menyayangi ayah karena setiap usaha dan pengorbanannya memiliki
+                arti besar dalam hidup saya.</p>
+            <p>Saya berharap dapat membahagiakan ayah, membalas segala kebaikannya, dan
+                membuatnya bangga melalui keberhasilan saya di masa depan.</p>
+        </div>
+    </div>
+    <!-- CONTEN END -->
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Profil Keluarga | Keluarga Bahagia</p>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+
+</html>
